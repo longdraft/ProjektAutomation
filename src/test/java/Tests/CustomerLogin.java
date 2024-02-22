@@ -25,6 +25,8 @@ public class CustomerLogin {
         String emailValue="mariuspetruta@yahoo.com";
         email.sendKeys(emailValue);
 
+
+
         WebElement password=driver.findElement(By.id("Password"));
         String passwordValue="abcd1234";
         password.sendKeys(passwordValue);
